@@ -1,9 +1,11 @@
-package com.lyh.lifenoteapplication;
+package com.lyh.lifenoteapplication.service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
+
+import com.lyh.lifenoteapplication.util.MyWindowManager;
 
 import android.app.ActivityManager;
 import android.app.ActivityManager.RunningTaskInfo;

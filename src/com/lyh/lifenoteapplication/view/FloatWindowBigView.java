@@ -1,4 +1,10 @@
-package com.lyh.lifenoteapplication;
+package com.lyh.lifenoteapplication.view;
+
+import com.lyh.lifenoteapplication.R;
+import com.lyh.lifenoteapplication.R.id;
+import com.lyh.lifenoteapplication.R.layout;
+import com.lyh.lifenoteapplication.service.FloatWindowService;
+import com.lyh.lifenoteapplication.util.MyWindowManager;
 
 import android.content.Context;
 import android.content.Intent;

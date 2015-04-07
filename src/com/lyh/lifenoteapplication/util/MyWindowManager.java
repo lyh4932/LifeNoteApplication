@@ -1,8 +1,13 @@
-package com.lyh.lifenoteapplication;
+package com.lyh.lifenoteapplication.util;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+
+import com.lyh.lifenoteapplication.R;
+import com.lyh.lifenoteapplication.R.id;
+import com.lyh.lifenoteapplication.view.FloatWindowBigView;
+import com.lyh.lifenoteapplication.view.FloatWindowSmallView;
 
 import android.app.ActivityManager;
 import android.content.Context;
