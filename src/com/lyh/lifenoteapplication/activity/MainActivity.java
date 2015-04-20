@@ -28,6 +28,15 @@ public class MainActivity extends Activity {
         mViewList.add(getLayoutInflater().inflate(R.layout.activity_ab, null));
         mViewList.add(getLayoutInflater().inflate(R.layout.activity_ab2, null));
         mViewList.add(getLayoutInflater().inflate(R.layout.activity_ab3, null));
+        mViewList.add(getLayoutInflater().inflate(R.layout.activity_ab, null));
+        mViewList.add(getLayoutInflater().inflate(R.layout.activity_ab2, null));
+        mViewList.add(getLayoutInflater().inflate(R.layout.activity_ab3, null));
+        mViewList.add(getLayoutInflater().inflate(R.layout.activity_ab, null));
+        mViewList.add(getLayoutInflater().inflate(R.layout.activity_ab2, null));
+        mViewList.add(getLayoutInflater().inflate(R.layout.activity_ab3, null));
+        mViewList.add(getLayoutInflater().inflate(R.layout.activity_ab, null));
+        mViewList.add(getLayoutInflater().inflate(R.layout.activity_ab2, null));
+        mViewList.add(getLayoutInflater().inflate(R.layout.activity_ab3, null));
         mPager.setAdapter(new DayViewPagerAdapter(mViewList));
         mIndicator.setViewPager(mPager);
 //        Button startFloatWindow = (Button) findViewById(R.id.start_float_window);
