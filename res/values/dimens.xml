@@ -6,5 +6,8 @@
     
     <!-- note icon -->
     <dimen name="note_icon_small_length">20dp</dimen>
+    
+    <dimen name="gridview_width">150dp</dimen>
+    <dimen name="gridview_height">90dp</dimen>
 
 </resources>

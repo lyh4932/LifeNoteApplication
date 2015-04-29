@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res/com.lyh.lifenoteapplication"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/desk_logo1"
+    android:orientation="vertical" >
+
+    <TextView 
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XXXXXXXXXXXXXXXXX"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:columnCount="2"
+            android:useDefaultMargins="true" >
+
+            <com.lyh.lifenoteapplication.view.GridViewItem
+                android:layout_width="@dimen/gridview_width"
+                android:layout_height="@dimen/gridview_height"
+                android:background="@android:color/holo_orange_light"
+                app:iconSrc="@drawable/search"
+                app:text="输入兑换码" />
+
+            <com.lyh.lifenoteapplication.view.GridViewItem
+                android:layout_width="@dimen/gridview_width"
+                android:layout_height="@dimen/gridview_height"
+                android:background="@android:color/holo_orange_light"
+                app:iconSrc="@drawable/search"
+                app:text="扫描二维码" />
+
+            <com.lyh.lifenoteapplication.view.GridViewItem
+                android:layout_width="@dimen/gridview_width"
+                android:layout_height="@dimen/gridview_height"
+                android:background="@android:color/holo_orange_light"
+                app:iconSrc="@drawable/search"
+                app:text="兑换历史" />
+
+            <com.lyh.lifenoteapplication.view.GridViewItem
+                android:layout_width="@dimen/gridview_width"
+                android:layout_height="@dimen/gridview_height"
+                android:background="@android:color/holo_orange_light"
+                app:iconSrc="@drawable/search"
+                app:text="设置" />
+        </GridLayout>
+    </LinearLayout>
+    <TextView 
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XXXXXXXXXXXXXXXXX"/>
+
+</LinearLayout>
