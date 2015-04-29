@@ -47,6 +47,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.lyh.lifenoteapplication.activity.Activity2"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.lyh.lifenoteapplication.activity.Activity3"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.lyh.lifenoteapplication.activity.Activity4"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.lyh.lifenoteapplication.activity.Activity5"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape" >
+        </activity>
         <service android:name="com.lyh.lifenoteapplication.service.FloatWindowService"></service>
     </application>
 </manifest>

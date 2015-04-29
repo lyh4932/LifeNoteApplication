@@ -11,10 +11,14 @@
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="XXXXXXXXXXXXXXXXX"/>
+        android:layout_marginTop="40dp"
+        android:textSize="26sp"
+        android:textColor="#ffffff"
+        android:text="欢迎进入imovie"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:gravity="center"
         android:orientation="horizontal" >
 
@@ -26,6 +30,7 @@
             android:useDefaultMargins="true" >
 
             <com.lyh.lifenoteapplication.view.GridViewItem
+                android:id="@+id/menu_input"
                 android:layout_width="@dimen/gridview_width"
                 android:layout_height="@dimen/gridview_height"
                 android:background="@android:color/holo_orange_light"
@@ -33,6 +38,7 @@
                 app:text="输入兑换码" />
 
             <com.lyh.lifenoteapplication.view.GridViewItem
+                android:id="@+id/menu_scan"
                 android:layout_width="@dimen/gridview_width"
                 android:layout_height="@dimen/gridview_height"
                 android:background="@android:color/holo_orange_light"
@@ -40,6 +46,7 @@
                 app:text="扫描二维码" />
 
             <com.lyh.lifenoteapplication.view.GridViewItem
+                android:id="@+id/menu_history"
                 android:layout_width="@dimen/gridview_width"
                 android:layout_height="@dimen/gridview_height"
                 android:background="@android:color/holo_orange_light"
@@ -47,6 +54,7 @@
                 app:text="兑换历史" />
 
             <com.lyh.lifenoteapplication.view.GridViewItem
+                android:id="@+id/menu_setting"
                 android:layout_width="@dimen/gridview_width"
                 android:layout_height="@dimen/gridview_height"
                 android:background="@android:color/holo_orange_light"
@@ -58,6 +66,9 @@
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="XXXXXXXXXXXXXXXXX"/>
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:text="提示：xxxxxxxxxx"/>
 
 </LinearLayout>
